@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+Limport Layout from "../components/Layout";
 import Topbar from "../components/Topbar";
 import NavOne from "../components/NavOne";
 import SliderOne from "../components/SliderOne";
@@ -18,7 +18,7 @@ import SubscribeOne from "../components/SubscribeOne";
 
 const HomePage = () => (
 
-    <Layout pageTitle="Kipso - React Next Online Education Learning & LMS Template">
+    <Layout pageTitle="Online Education Learning & LMS Portal">
       <Topbar />
       <NavOne />
       <SliderOne />
