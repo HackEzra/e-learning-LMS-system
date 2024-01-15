@@ -16,25 +16,8 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ## Folder structure
 ```
-kipso/
+e-learning-LMS-System/
 +
-├───.idea
-├───.next
-│   ├───cache
-│   │   ├───autodll-webpack-plugin
-│   │   │   └───development_instance_0_efb4c531758b1fd32b2b83a4b431d85e
-│   │   └───next-babel-loader
-│   ├───server
-│   │   └───static
-│   │       └───development
-│   │           └───pages
-│   └───static
-│       ├───chunks
-│       ├───css
-│       ├───development
-│       │   ├───dll
-│       │   └───pages
-│       └───runtime
 ├───components
 ├───pages
 └───public
