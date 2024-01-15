@@ -14,6 +14,46 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
+##Folder structure
+```
+kipso/
++
+├───.idea
+├───.next
+│   ├───cache
+│   │   ├───autodll-webpack-plugin
+│   │   │   └───development_instance_0_efb4c531758b1fd32b2b83a4b431d85e
+│   │   └───next-babel-loader
+│   ├───server
+│   │   └───static
+│   │       └───development
+│   │           └───pages
+│   └───static
+│       ├───chunks
+│       ├───css
+│       ├───development
+│       │   ├───dll
+│       │   └───pages
+│       └───runtime
+├───components
+├───pages
+└───public
+    └───assets
+        ├───css
+        │   └───overlays
+        ├───images
+        │   └───favicons
+        ├───plugins
+        │   ├───bootstrap
+        │   ├───fontawesome-free-5.11.2-web
+        │   │   ├───css
+        │   │   └───webfonts
+        │   └───kipso-icons
+        │       ├───demo-files
+        │       └───fonts
+        └───scss
++
+```
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -21,10 +61,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on ZEIT Now
-
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
